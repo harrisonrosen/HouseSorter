@@ -2,15 +2,15 @@
 
 // Predefined list of house assignments
 const houseAssignments = {
-    "John Doe": "Reveur",
+    "Emily Sohn": "Reveur",
     "Jane Smith": "Altruismo",
     // Add all student names and their corresponding houses here
 };
 
 const houseAnimations = {
-    "Reveur": "<img src='reveur-animation.gif' alt='Reveur Animation'>",
-    "Amistad": "<img src='amistad-animation.gif' alt='Amistad Animation'>",
-    "Isibindi": "<img src='isibindi-animation.gif' alt='Isibindi Animation'>",
+    "Reveur": "<video width='320' height='240' controls><source src='Animations/reveur-animation.mp4' type='video/mp4'>Your browser does not support the video tag.</video>",
+    "Amistad": "<video width='320' height='240' controls><source src='Animations/amistad-animation.mp4' type='video/mp4'>Your browser does not support the video tag.</video>",
+    "Isibindi": "<video width='320' height='240' controls><source src='Animations/isibindi-animation.mp4' type='video/mp4'>Your browser does not support the video tag.</video>",
     "Altruismo": "<video width='320' height='240' controls><source src='Animations/altruismo-animation.mp4' type='video/mp4'>Your browser does not support the video tag.</video>",
     "Onraka": "<img src='onraka-animation.gif' alt='Onraka Animation'>",
     "Sollevare": "<img src='sollevare-animation.gif' alt='Sollevare Animation'>",
@@ -25,7 +25,7 @@ function sortStudent() {
     const animationDiv = document.getElementById('animation');
 
     if (house === "Unknown") {
-        resultDiv.innerHTML = "Sorry, your name is not on the list.";
+        resultDiv.innerHTML = "Oh no! Your name was spelled incorrectly, please try again!";
         animationDiv.innerHTML = "";
     } else {
         resultDiv.innerHTML = `Welcome to ${house}!`;
@@ -40,11 +40,15 @@ function sortStudent() {
             });
         });
 
-        // Listen for the end of the video and exit full screen mode
+        // Reload the page when the video ends
         videoElement.addEventListener('ended', function() {
             if (document.fullscreenElement) {
                 document.exitFullscreen();
             }
+            // Reload the page for the next student
+            setTimeout(() => {
+                location.reload();
+            }, 1000); // Wait for a short period to ensure the fullscreen exit animation completes
         });
     }
 }
