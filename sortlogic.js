@@ -2,8 +2,14 @@
 
 // Predefined list of house assignments
 const houseAssignments = {
-    "Emily Sohn": "Reveur",
-    "Jane Smith": "Altruismo",
+    "Remley McCluskey": "Reveur",
+    "Hailey Lentz": "Altruismo",
+    "Tristan Hildenbrand": "Onraka",
+    "Josiah Smith": "Nukumori",
+    "Elliot Stratton": "Amistad",
+    "Emma Hampsmire": "Sollevare",
+    "Ariyah Winebrinner": "Isibindi",
+    "Kat Daggett": "Protos"
     // Add all student names and their corresponding houses here
 };
 
@@ -12,10 +18,10 @@ const houseAnimations = {
     "Amistad": "<video width='320' height='240' controls><source src='Animations/amistad-animation.mp4' type='video/mp4'>Your browser does not support the video tag.</video>",
     "Isibindi": "<video width='320' height='240' controls><source src='Animations/isibindi-animation.mp4' type='video/mp4'>Your browser does not support the video tag.</video>",
     "Altruismo": "<video width='320' height='240' controls><source src='Animations/altruismo-animation.mp4' type='video/mp4'>Your browser does not support the video tag.</video>",
-    "Onraka": "<img src='onraka-animation.gif' alt='Onraka Animation'>",
-    "Sollevare": "<img src='sollevare-animation.gif' alt='Sollevare Animation'>",
-    "Nukumori": "<img src='nukumori-animation.gif' alt='Nukumori Animation'>",
-    "Protos": "<img src='protos-animation.gif' alt='Protos Animation'>"
+    "Onraka": "<video width='320' height='240' controls><source src='Animations/onraka-animation.mp4' type='video/mp4'>Your browser does not support the video tag.</video>",
+    "Sollevare": "<video width='320' height='240' controls><source src='Animations/sollevare-animation.mp4' type='video/mp4'>Your browser does not support the video tag.</video>",
+    "Nukumori": "<video width='320' height='240' controls><source src='Animations/nukumori-animation.mp4' type='video/mp4'>Your browser does not support the video tag.</video>",
+    "Protos": "<video width='320' height='240' controls><source src='Animations/protos-animation.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
 };
 
 function sortStudent() {
