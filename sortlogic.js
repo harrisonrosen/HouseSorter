@@ -101,7 +101,10 @@ const houseAssignments = {
     "67562": "Sollevare",
     "55226": "Sollevare",
     "55668": "Sollevare",
-    "62557": "Sollevare"
+    "62557": "Sollevare",
+    "34526": "Protos",
+    "33261": "Altruismo",
+    "33215": "Amistad"
     // Add all student names and their corresponding houses here
 };
 
