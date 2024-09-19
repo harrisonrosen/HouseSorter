@@ -193,9 +193,11 @@ const houseAssignments = {
     "62080": "Amistad",
     "77696": "Onraka",
     "75207": "Onraka",
-    "70508": "Reveur"
-
-
+    "70508": "Reveur",
+    "01234": "Isibindi",
+    "46210": "Altruismo",
+    "51248": "Amistad",
+    "57950": "Amistad"
 
     // Add all student names and their corresponding houses here
 };
