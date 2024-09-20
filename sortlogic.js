@@ -189,7 +189,16 @@ const houseAssignments = {
     "67193": "Sollevare",
     "65636": "Sollevare",
     "62992": "Sollevare",
-    "63075": "Sollevare"
+    "63075": "Sollevare",
+    "66150": "Altruismo",
+    "65905": "Amistad",
+    "61589": "Nukumori",
+    "62639": "Reveur",
+    "62729": "Sollevare",
+    "62080": "Amistad",
+    "77696": "Onraka",
+    "75207": "Onraka",
+    "70508": "Reveur"
     // Add all student names and their corresponding houses here
 };
 
