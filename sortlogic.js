@@ -17,7 +17,7 @@ const houseAssignments = {
     "75080": "Nukumori",
     "70361": "Reveur",
     "57950": "Amistad",
-    "59064": "Isibindi"
+    "58064": "Isibindi"
     // Add all student names and their corresponding houses here
 };
 
